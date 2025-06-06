@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "mdio_private.h": "c",
+        "std_types.h": "c",
+        "bit_math.h": "c",
+        "mdio.h": "c"
+    }
+}

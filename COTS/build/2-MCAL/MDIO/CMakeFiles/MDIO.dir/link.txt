@@ -1,0 +1,2 @@
+/usr/bin/ar qc libMDIO.a CMakeFiles/MDIO.dir/src/MDIO.c.o
+/usr/bin/ranlib libMDIO.a

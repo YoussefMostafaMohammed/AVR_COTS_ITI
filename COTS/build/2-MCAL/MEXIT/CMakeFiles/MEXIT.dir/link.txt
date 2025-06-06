@@ -1,0 +1,2 @@
+/usr/bin/ar qc libMEXIT.a CMakeFiles/MEXIT.dir/src/MEXIT.c.o CMakeFiles/MEXIT.dir/src/MEXIT_CFG.c.o
+/usr/bin/ranlib libMEXIT.a

@@ -1,0 +1,3 @@
+/media/youssef/myData/work/iti/avr/COTS/3-HAL/HLED/build/CMakeFiles/HLED.dir
+/media/youssef/myData/work/iti/avr/COTS/3-HAL/HLED/build/CMakeFiles/edit_cache.dir
+/media/youssef/myData/work/iti/avr/COTS/3-HAL/HLED/build/CMakeFiles/rebuild_cache.dir

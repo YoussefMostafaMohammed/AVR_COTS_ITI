@@ -1,0 +1,2 @@
+/usr/bin/ar qc libHKPAD.a CMakeFiles/HKPAD.dir/src/HKPAD.c.o CMakeFiles/HKPAD.dir/src/HKPAD_CFG.c.o
+/usr/bin/ranlib libHKPAD.a

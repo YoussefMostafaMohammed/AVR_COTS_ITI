@@ -1,0 +1,2 @@
+/usr/bin/ar qc libHLED.a CMakeFiles/HLED.dir/src/HLED.c.o CMakeFiles/HLED.dir/src/HLED_CFG.c.o
+/usr/bin/ranlib libHLED.a

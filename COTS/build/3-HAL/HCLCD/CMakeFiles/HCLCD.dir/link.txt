@@ -1,0 +1,2 @@
+/usr/bin/ar qc libHCLCD.a CMakeFiles/HCLCD.dir/src/HCLCD.c.o CMakeFiles/HCLCD.dir/src/HCLCD_CFG.c.o
+/usr/bin/ranlib libHCLCD.a

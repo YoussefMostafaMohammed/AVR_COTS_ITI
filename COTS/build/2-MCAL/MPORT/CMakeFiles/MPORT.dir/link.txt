@@ -1,0 +1,2 @@
+/usr/bin/ar qc libMPORT.a CMakeFiles/MPORT.dir/src/MPORT.c.o CMakeFiles/MPORT.dir/src/MPORT_CFG.c.o
+/usr/bin/ranlib libMPORT.a

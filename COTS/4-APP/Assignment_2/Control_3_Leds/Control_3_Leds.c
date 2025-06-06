@@ -1,0 +1,29 @@
+#include "STD_TYPES.h"
+#include "BIT_MATH.h"
+#include "MDIO.h"
+#include "MPORT.h"
+#include "MDIO_CFG.h"
+#include <util/delay.h>
+
+
+int main(void){
+    MPORT_vInit();
+    uint8_t cnt=0;
+    while(1){
+        uint8_t pressedValue1=-1, pressedValue2=-1,pressedValue3=-1;
+        if(MDIO_enuGetPinValue(MDIO_ENU_PORTA,MDIO_ENU_PIN0,&pressedValue1)==MDIO_ENU_OK && (pressedValue1==0)){ 
+            while((MDIO_enuGetPinValue(MDIO_ENU_PORTA,MDIO_ENU_PIN0,&pressedValue1)==MDIO_ENU_OK) && (pressedValue1==0));
+            cnt=1;
+            MDIO_enuSetPortCustomValue(MDIO_ENU_PORTC,cnt);
+        }else if(MDIO_enuGetPinValue(MDIO_ENU_PORTA,MDIO_ENU_PIN1,&pressedValue2)==MDIO_ENU_OK && (pressedValue2==0)){
+		    while((MDIO_enuGetPinValue(MDIO_ENU_PORTA,MDIO_ENU_PIN1,&pressedValue2)==MDIO_ENU_OK) && (pressedValue2==0));
+            cnt=2;
+            MDIO_enuSetPortCustomValue(MDIO_ENU_PORTC,cnt);
+        }else if(MDIO_enuGetPinValue(MDIO_ENU_PORTA,MDIO_ENU_PIN2,&pressedValue3)==MDIO_ENU_OK && (pressedValue3==0)){
+		    while((MDIO_enuGetPinValue(MDIO_ENU_PORTA,MDIO_ENU_PIN2,&pressedValue3)==MDIO_ENU_OK) && (pressedValue3==0));
+            cnt=4;
+            MDIO_enuSetPortCustomValue(MDIO_ENU_PORTC,cnt);
+        }
+        if(cnt <0 )cnt=0;
+    }
+}

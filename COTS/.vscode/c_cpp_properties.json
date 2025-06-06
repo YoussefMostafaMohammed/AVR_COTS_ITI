@@ -1,0 +1,36 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ]
+        }
+    ],
+    "configurations": [
+        {
+            "name": "AVR-Windows",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/Program Files (x86)/WinAVR/include",  // Adjust this path to your WinAVR include directory
+                "C:/Program Files (x86)/WinAVR/include/avr"  // AVR-specific headers
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:/Program Files (x86)/WinAVR/bin/avr-gcc.exe",  // Path to avr-gcc executable
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x64"
+        }
+    ],
+    "version": 4
+
+}

@@ -1,0 +1,16 @@
+{
+    "cmake.options.statusBarVisibility": "icon",
+    "files.associations": {
+        "std_types.h": "c",
+        "bit_math.h": "c",
+        "mport.h": "c",
+        "hswitch_cfg.h": "c",
+        "hswitch.h": "c",
+        "hsevenseg_cfg.h": "c",
+        "mdio.h": "c",
+        "mgie.h": "c",
+        "mdio_reg.h": "c",
+        "mexit_cfg.h": "c",
+        "mexit.h": "c"
+    }
+}

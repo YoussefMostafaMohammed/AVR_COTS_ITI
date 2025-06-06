@@ -1,0 +1,2 @@
+/usr/bin/ar qc libHSWITCH.a CMakeFiles/HSWITCH.dir/src/HSWITCH.c.o CMakeFiles/HSWITCH.dir/src/HSWITCH_CFG.c.o
+/usr/bin/ranlib libHSWITCH.a
